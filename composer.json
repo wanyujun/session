@@ -1,0 +1,21 @@
+{
+  "name": "wanyujun/session",
+  "description": "session driver",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "laowan",
+      "email": "laowan@huiwe.cn"
+    }
+  ],
+  "autoload" : {
+    "psr-4" : {
+      "Session\\" : "src",
+      "Session\\Driver\\" : "src/Driver",
+      "Session\\Exception\\" : "src/Exception"
+    }
+  },
+  "require" : {
+  }
+}
